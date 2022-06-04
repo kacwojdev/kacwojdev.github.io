@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kacwojdev</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;700&family=Roboto+Slab:wght@100;300;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+        * { box-sizing: border-box;}
+        body {
+            margin: auto 0;
+            background-color: White;
+            font-family: 'Roboto Mono', monospace;
+            font-family: 'Roboto Slab', serif;
+        }
+        .container {
+            margin: 50px;
+            padding: 50px;
+            height: calc(100vh - 100px);
+            background-color: #FBFBFB;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .decor__tria {
+            width: 0;
+            height: 0;
+            border-top: 4px solid transparent;
+            border-left: 8px solid #0000FF;
+            border-bottom: 4px solid transparent;
+        }
+        .decor__line {
+            width: 100px;
+            height: 2px;
+            background-color:  #0000FF;
+        }
+
+        .decor {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .decor div { margin-right: 5px;}
+        h1, .decor, p {
+            margin: 0;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <h1>kacwojdev</h1>
+        <div class="decor">
+            <div class="decor__tria"></div>
+            <div class="decor__tria"></div>
+            <div class="decor__tria"></div>
+            <div class="decor__line"></div>
+        </div>
+        <p>very soon there will be my own best ever site...</p>
+    </div>
+</body>
+</html>
